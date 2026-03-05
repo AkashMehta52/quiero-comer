@@ -12,7 +12,7 @@ datasource db {
   provider = "postgresql"
 }
 
-model Test {
+model HealthCheck {
   id        String   @id @default(uuid())
   createdAt DateTime @default(now())
 }
